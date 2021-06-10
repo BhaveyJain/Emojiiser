@@ -25,6 +25,7 @@ class LoginActivity : AppCompatActivity() {
         private const val RC_SIGN_IN = 4926
         private const val TAG = "LoginActivity"
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         auth = Firebase.auth
         super.onCreate(savedInstanceState)
