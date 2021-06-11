@@ -3,6 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/cameraIcon"
+        android:icon="@drawable/ic_baseline_photo_camera_24"
+        android:title="Camera"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/miLogout"
         android:title="Logout" />
+    <item
+        android:id="@+id/editIcon"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="manualEdit"
+        app:showAsAction="always" />
 </menu>
