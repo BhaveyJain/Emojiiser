@@ -13,11 +13,14 @@ class UserAdapter(private val context: Context, private val options: FirestoreRe
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val tvName: TextView = itemView.findViewById(android.R.id.text1)
+
         val tvEmojis: TextView = itemView.findViewById(android.R.id.text2)
 
         fun bind(model: User) {
             tvName.text = model.displayName
             tvEmojis.text = model.emojis
+            tvName.textSize = 18f
+            tvEmojis.textSize = 25f
         }
     }
 
